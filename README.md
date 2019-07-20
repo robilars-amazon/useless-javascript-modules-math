@@ -8,9 +8,9 @@ This useless javascript module does mathematical operations on numbers.
 const math = require('@useless-javascript-modules/math')
 
 math('add',1,2) /* = 3 */
-math('subtract',6,4) /* = 2 */
+math('subtract',6.2,4) /* = 2.2 */
 math('multiply',2,3) /* = 6 */
-math('divide',10,2) /* = 2 */
+math('divide',10,3) /* = 3.3333.... */
 ```
 
 ## Supported Math Operations
@@ -30,3 +30,10 @@ Multiply the first argument by the second argument
 Divide the first argument by the second argument
 
  
+
+# Change Log
+
+* 2.0 - Operations now accurately handles fractional numbers 
+* 1.1 - Added support for multiply and divide operations
+* 1.0 - initial release  
+
