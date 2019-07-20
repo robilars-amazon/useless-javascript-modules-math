@@ -1,0 +1,19 @@
+{
+  "name": "@useless-javascript-modules/math",
+  "version": "1.0.0",
+  "description": "A useless javascript module that does math operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robilars-amazon/useless-javascript-modules-math.git"
+  },
+  "author": "Larson, Robin <robilars@amazon.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robilars-amazon/useless-javascript-modules-math/issues"
+  },
+  "homepage": "https://github.com/robilars-amazon/useless-javascript-modules-math#readme"
+}
