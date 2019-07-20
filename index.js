@@ -7,6 +7,10 @@ module.exports = function math(operation, firstTerm, secondTerm){
         return firstTerm * secondTerm
     } else if (operation === 'divide'){
         return firstTerm / secondTerm
+    } else if (operation === 'pow'){
+        return Math.pow(firstTerm, secondTerm)
+    } else if (operation === 'root'){
+        return math('pow',firstTerm,math('divide',1,secondTerm))
     } else {
         throw Error('Unknown operation')
     }
