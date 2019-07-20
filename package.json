@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/robilars-amazon/useless-javascript-modules-math/issues"
   },
-  "homepage": "https://github.com/robilars-amazon/useless-javascript-modules-math#readme"
+  "homepage": "https://github.com/robilars-amazon/useless-javascript-modules-math#readme",
+  "files":[
+    "index.js"
+  ]
 }
