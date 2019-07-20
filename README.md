@@ -21,3 +21,12 @@ Add the first argument to the second argument
 ### `subtract`
 Subtract the second argument from the first argument.
 
+### `multiply`
+
+Multiply the first argument by the second argument
+
+### `divide`
+
+Divide the first argument by the second argument
+
+ 
