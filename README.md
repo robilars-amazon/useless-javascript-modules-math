@@ -7,12 +7,12 @@ This useless javascript module does mathematical operations on numbers.
 ```js
 const math = require('@useless-javascript-modules/math')
 
-math('add',1,2) /* = 3 */
-math('subtract',6.2,4) /* = 2.2 */
-math('multiply',2,3) /* = 6 */
-math('divide',10,3) /* = 3.3333.... */
-math('pow',3,3) /* = 27 */
-math('root',27,3) /* = 3 */
+math.add(1,2) /* = 3 */
+math.subtract(6.2,4) /* = 2.2 */
+math.multiply(2,3) /* = 6 */
+math.divide(10,3) /* = 3.3333.... */
+math.pow(3,3) /* = 27 */
+math.root(27,3) /* = 3 */
 ```
 
 ## Supported Math Operations
@@ -44,7 +44,7 @@ The first argument to the root of the second argument
  
 
 # Change Log
-
+* 3.0 - Changed API to make it "better"
 * 2.1 - Added `pow` and `root` operations
 * 2.0 - Operations now accurately handles fractional numbers 
 * 1.1 - Added support for multiply and divide operations
